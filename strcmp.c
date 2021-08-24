@@ -15,7 +15,13 @@ int main()
     if (strcmp(string1, string2) == 0)
         printf("Ingresaste dos strings identicos\n");
     else
-        printf("Ingresaste dos cosas distintas\n");
+    {
+        strcat(string1, string2);
+        printf("Ingresaste dos cosas distintas si las unimos el resultado es>%s\n", string1);
+
+
+    }
+        
 
     return 0;
 
